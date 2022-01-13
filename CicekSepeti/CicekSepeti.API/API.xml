@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CicekSepeti.API</name>
+    </assembly>
+    <members>
+        <member name="T:CicekSepeti.API.AutoMapper.MapperProfile">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CicekSepeti.API.Bootstrapper.AutoMapperBootstrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CicekSepeti.API.Bootstrapper.AutoMapperBootstrapper.AddMapper(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="this"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CicekSepeti.API.Bootstrapper.DependencyInjectionBootstrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CicekSepeti.API.Bootstrapper.DependencyInjectionBootstrapper.AddDependencyInjection(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="this"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CicekSepeti.API.Bootstrapper.FluentValidatorBootstrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CicekSepeti.API.Bootstrapper.FluentValidatorBootstrapper.AddFluentValidatorBootstrapper(Microsoft.Extensions.DependencyInjection.IMvcBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="this"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CicekSepeti.API.Bootstrapper.LocalizationBootstrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CicekSepeti.API.Bootstrapper.LocalizationBootstrapper.AddLocalizationMessage(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="this"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CicekSepeti.API.Bootstrapper.LocalizationBootstrapper.UseLocalizationMessage(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="this"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CicekSepeti.API.Bootstrapper.SwaggerBootstrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CicekSepeti.API.Bootstrapper.SwaggerBootstrapper.IsDevelopment">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CicekSepeti.API.Bootstrapper.SwaggerBootstrapper.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="this"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CicekSepeti.API.Bootstrapper.SwaggerBootstrapper.UseSwaggerGen(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="this"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CicekSepeti.API.Models.BaseResult`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:CicekSepeti.API.Models.BaseResult`1.Data">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CicekSepeti.API.Models.BaseResult`1.Message">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CicekSepeti.API.Models.BaseResult`1.StatusCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CicekSepeti.API.Models.BaseResult`1.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CicekSepeti.API.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CicekSepeti.API.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:CicekSepeti.API.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CicekSepeti.API.BaseResource">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CicekSepeti.API.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CicekSepeti.API.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:CicekSepeti.API.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CicekSepeti.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CicekSepeti.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

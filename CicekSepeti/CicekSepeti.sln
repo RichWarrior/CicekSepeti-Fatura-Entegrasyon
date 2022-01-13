@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31410.414
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.API", "CicekSepeti.API\CicekSepeti.API.csproj", "{3D72F9B6-49A7-413B-954C-EC7F68179C4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "APIGateway\APIGateway.csproj", "{14CF930B-5108-40EB-9252-5705F85F3B8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{A0B0107A-D5C8-448D-9CCB-35B6C9C20E90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Environment", "Environment\Environment.csproj", "{B5DC1F82-B556-4759-ACBC-000A002CEA51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{DC480557-DC4F-4134-BA02-A425B6D6114C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EArchive.Client", "EArchiveClient\EArchive.Client.csproj", "{F740F38B-0929-48B6-90DA-9DF40F67CC9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EArchive.Consumer", "EArchive.Consumer\EArchive.Consumer.csproj", "{BF6A5AC0-AC95-45C6-9110-6312B0F4A59C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D72F9B6-49A7-413B-954C-EC7F68179C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D72F9B6-49A7-413B-954C-EC7F68179C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D72F9B6-49A7-413B-954C-EC7F68179C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D72F9B6-49A7-413B-954C-EC7F68179C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CF930B-5108-40EB-9252-5705F85F3B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CF930B-5108-40EB-9252-5705F85F3B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CF930B-5108-40EB-9252-5705F85F3B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CF930B-5108-40EB-9252-5705F85F3B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B0107A-D5C8-448D-9CCB-35B6C9C20E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B0107A-D5C8-448D-9CCB-35B6C9C20E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B0107A-D5C8-448D-9CCB-35B6C9C20E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B0107A-D5C8-448D-9CCB-35B6C9C20E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5DC1F82-B556-4759-ACBC-000A002CEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5DC1F82-B556-4759-ACBC-000A002CEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5DC1F82-B556-4759-ACBC-000A002CEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5DC1F82-B556-4759-ACBC-000A002CEA51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC480557-DC4F-4134-BA02-A425B6D6114C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC480557-DC4F-4134-BA02-A425B6D6114C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC480557-DC4F-4134-BA02-A425B6D6114C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC480557-DC4F-4134-BA02-A425B6D6114C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F740F38B-0929-48B6-90DA-9DF40F67CC9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F740F38B-0929-48B6-90DA-9DF40F67CC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F740F38B-0929-48B6-90DA-9DF40F67CC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F740F38B-0929-48B6-90DA-9DF40F67CC9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF6A5AC0-AC95-45C6-9110-6312B0F4A59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6A5AC0-AC95-45C6-9110-6312B0F4A59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6A5AC0-AC95-45C6-9110-6312B0F4A59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6A5AC0-AC95-45C6-9110-6312B0F4A59C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACD92983-B52D-47B0-93FF-27D75A53F67E}
+	EndGlobalSection
+EndGlobal

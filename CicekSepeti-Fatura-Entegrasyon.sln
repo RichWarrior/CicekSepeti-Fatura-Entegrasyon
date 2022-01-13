@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "CicekSepeti\APIGateway\APIGateway.csproj", "{E4F6565C-26FA-4869-8CF0-9100B6048E0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepeti.API", "CicekSepeti\CicekSepeti.API\CicekSepeti.API.csproj", "{3DA4D0BD-DE9B-47F9-93D0-BB220DD34913}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "CicekSepeti\Core\Core.csproj", "{AB45E8F3-F4B3-4DAA-BD68-22486090C64F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EArchive.Consumer", "CicekSepeti\EArchive.Consumer\EArchive.Consumer.csproj", "{8C828696-4751-4C95-AEDF-7725EF7E88E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EArchive.Client", "CicekSepeti\EArchiveClient\EArchive.Client.csproj", "{915DA905-420A-4F89-ABE5-974CF018FB03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Environment", "CicekSepeti\Environment\Environment.csproj", "{7C72AACE-60C2-4684-ACCF-0CA0926A3580}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "CicekSepeti\Service\Service.csproj", "{1E4A10F1-5BB6-4718-B817-4B26D83283B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4F6565C-26FA-4869-8CF0-9100B6048E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F6565C-26FA-4869-8CF0-9100B6048E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F6565C-26FA-4869-8CF0-9100B6048E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F6565C-26FA-4869-8CF0-9100B6048E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA4D0BD-DE9B-47F9-93D0-BB220DD34913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA4D0BD-DE9B-47F9-93D0-BB220DD34913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA4D0BD-DE9B-47F9-93D0-BB220DD34913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA4D0BD-DE9B-47F9-93D0-BB220DD34913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB45E8F3-F4B3-4DAA-BD68-22486090C64F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB45E8F3-F4B3-4DAA-BD68-22486090C64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB45E8F3-F4B3-4DAA-BD68-22486090C64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB45E8F3-F4B3-4DAA-BD68-22486090C64F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C828696-4751-4C95-AEDF-7725EF7E88E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C828696-4751-4C95-AEDF-7725EF7E88E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C828696-4751-4C95-AEDF-7725EF7E88E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C828696-4751-4C95-AEDF-7725EF7E88E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{915DA905-420A-4F89-ABE5-974CF018FB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915DA905-420A-4F89-ABE5-974CF018FB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{915DA905-420A-4F89-ABE5-974CF018FB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{915DA905-420A-4F89-ABE5-974CF018FB03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C72AACE-60C2-4684-ACCF-0CA0926A3580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C72AACE-60C2-4684-ACCF-0CA0926A3580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C72AACE-60C2-4684-ACCF-0CA0926A3580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C72AACE-60C2-4684-ACCF-0CA0926A3580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4A10F1-5BB6-4718-B817-4B26D83283B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4A10F1-5BB6-4718-B817-4B26D83283B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4A10F1-5BB6-4718-B817-4B26D83283B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4A10F1-5BB6-4718-B817-4B26D83283B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4681AF04-A27B-445F-AF29-4B960364F905}
+	EndGlobalSection
+EndGlobal
