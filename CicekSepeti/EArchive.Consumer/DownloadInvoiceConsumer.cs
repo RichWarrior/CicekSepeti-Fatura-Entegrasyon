@@ -133,7 +133,7 @@ namespace EArchive.Consumer
                                         invoice.Message = token.Message;
                                         if (token.StatusCode != HttpStatusCode.OK || String.IsNullOrEmpty(token.Data.Token))
                                         {
-                                            invoice.InvoiceStatusId = (int)EnumInvoiceStatus.NotDownloadedPDF;
+                                            invoice.InvoiceStatusId = (int)EnumInvoiceStatus.NotDownloadedPDF;                                            
                                             uow.Invoice.Update(invoice);
                                             uow.SaveChanges();
                                             uow.Commit();

@@ -1,10 +1,11 @@
 ﻿using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace Core.Extensions
 {
     public static class StringExtension
     {
-        public static bool HasUnicodeCharacter(this string input) => input.Any(f => f > 255);
+        public static bool HasUnicodeCharacter(this string input) => !Regex.IsMatch(input, @"^[\p{L} \.\-]+$");
 
         public static string NormalizePDFName(this string pdfName)
         {
