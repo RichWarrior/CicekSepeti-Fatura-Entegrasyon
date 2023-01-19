@@ -8,6 +8,9 @@
     <DocumentationFile>C:\Projects\Net6-ProjectTemplates\SqlServerEntityFrameworkWebAPI\API\API.xml</DocumentationFile>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Development' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Staging' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Production' " />
   <ItemGroup>
     <Compile Remove="Utilities\**" />
     <Content Remove="Utilities\**" />

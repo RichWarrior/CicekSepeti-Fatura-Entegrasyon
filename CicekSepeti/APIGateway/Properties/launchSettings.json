@@ -21,8 +21,7 @@
       "launchUrl": "swagger",
       "environmentVariables": {
         "MODE": "Staging"
-      },
-      "sqlDebugging": true
+      }
     },
     "Production": {
       "commandName": "Project",

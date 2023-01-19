@@ -115,7 +115,7 @@ namespace EArchive.Consumer
                                         draftInvoice.faturaTipi = "SATIS";
                                         draftInvoice.hangiTip = "5000/30000";
                                         draftInvoice.vknTckn = invoice.CustomerVKN;
-                                        draftInvoice.aliciUnvan = invoice.CustomerName;
+                                        //draftInvoice.aliciUnvan = invoice.CustomerName;
                                         draftInvoice.aliciAdi = invoice.CustomerName;
                                         draftInvoice.aliciSoyadi = invoice.CustomerName;
                                         draftInvoice.binaAdi = "";
@@ -154,7 +154,7 @@ namespace EArchive.Consumer
                                         draftInvoice.odenecekTutar = format(invoice.SubTotal);
 
                                         MalHizmetTable malHizmetTable = new MalHizmetTable();
-                                        malHizmetTable.malHizmet = invoice.SubOrderId;
+                                        malHizmetTable.malHizmet = "Dekoratif Hediye";
                                         malHizmetTable.miktar = 1;
                                         malHizmetTable.birim = "C62";
                                         malHizmetTable.birimFiyat = format(invoice.Price);
