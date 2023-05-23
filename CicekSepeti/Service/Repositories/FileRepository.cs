@@ -91,19 +91,19 @@ namespace Service.Repositories
                         invoice.ProductName = sheet.Cell(rowIndex, 3).Value.ToString();
                         invoice.ProductSecondName = sheet.Cell(rowIndex, 4).Value.ToString();
                         invoice.Piece = int.Parse(sheet.Cell(rowIndex, 5).Value.ToString().Split(' ')[0]);
-                        invoice.Price = decimal.Parse(sheet.Cell(rowIndex, 9).Value.ToString()) * 100 / (100 + taxRate);
                         invoice.TaxRate = taxRate;
-                        invoice.Tax = invoice.Price * taxRate / 100;
-                        invoice.SubTotal = invoice.Price + invoice.Tax;
-                        invoice.CustomerName = sheet.Cell(rowIndex, 22).Value.ToString();
-                        invoice.TaxOffice = sheet.Cell(rowIndex, 25).Value.ToString();
-                        invoice.Address = sheet.Cell(rowIndex, 24).Value.ToString();
-                        var customerCompany = sheet.Cell(rowIndex, 23).Value.ToString();
+                        invoice.SubTotal = decimal.Parse(sheet.Cell(rowIndex, 38).Value.ToString());
+                        invoice.Tax = invoice.SubTotal - ((invoice.SubTotal * 100) / 118);
+                        invoice.Price = invoice.SubTotal - invoice.Tax;
+                        invoice.CustomerName = sheet.Cell(rowIndex, 23).Value.ToString();
+                        invoice.TaxOffice = sheet.Cell(rowIndex, 26).Value.ToString();
+                        invoice.Address = sheet.Cell(rowIndex, 25).Value.ToString();
+                        var customerCompany = sheet.Cell(rowIndex, 24).Value.ToString();
                         if (!string.IsNullOrEmpty(customerCompany))
                         {
                             invoice.CustomerName = customerCompany;
                         }
-                        invoice.CustomerVKN = sheet.Cell(rowIndex, 26).Value.ToString();
+                        invoice.CustomerVKN = sheet.Cell(rowIndex, 27).Value.ToString();
                         if (string.IsNullOrEmpty(invoice.CustomerVKN))
                         {
                             invoice.CustomerVKN = "11111111111";

@@ -6,7 +6,7 @@ namespace Service
 {
     public class DataContext : DbContext
     {
-        public DbSet<File> File{ get; set; }
+        public DbSet<File> File { get; set; }
         public DbSet<Invoice> Invoice { get; set; }
         public DbSet<InvoiceStatus> InvoiceStatus { get; set; }
         public DbSet<Parameter> Parameter { get; set; }
@@ -16,7 +16,8 @@ namespace Service
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             var connectionString = ConnectionInfo.Instance.MySQLServerConnectionString;
-            optionsBuilder.UseMySQL(connectionString);
+            ServerVersion serverVersion = ServerVersion.AutoDetect(connectionString);
+            optionsBuilder.UseMySql(connectionString,serverVersion);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
